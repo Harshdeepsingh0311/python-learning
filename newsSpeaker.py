@@ -1,4 +1,5 @@
-# Akhbaar Padhke Sunao
+# News Speaker
+
 import requests
 import json
 from win32com.client import Dispatch
