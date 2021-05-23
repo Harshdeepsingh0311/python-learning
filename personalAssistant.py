@@ -9,7 +9,7 @@ import smtplib
 
 engine = pt.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voices', voices[2].id)
+engine.setProperty('voices', voices[2].id)  #Optional
 
 
 def speak(audio):
